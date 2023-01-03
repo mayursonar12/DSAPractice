@@ -68,4 +68,4 @@ function findAllSubarray(arr){
     return list;
   }
 
-export {computeLPSArray, isPrime, findAllSubarray};
+//export {computeLPSArray, isPrime, findAllSubarray};
