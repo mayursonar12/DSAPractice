@@ -68,4 +68,14 @@ function findAllSubarray(arr){
     return list;
   }
 
-//export {computeLPSArray, isPrime, findAllSubarray};
+function pow (num, index) {
+    if(index == 0) return 1;
+    if (index == 1) return num;
+    let pow = 1;
+    for (let i = 0; i < index; i++){
+        pow = pow*num;
+    }
+    console.log(pow);
+    return pow;
+}
+export {computeLPSArray, isPrime, findAllSubarray, pow};
